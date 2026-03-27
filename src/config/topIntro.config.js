@@ -24,29 +24,6 @@ export const intro = {
       Jestem głęboko zaangażowany w pisanie czystego, wysokiej jakości kodu, stosowanie najlepszych praktyk, wdrażanie testów automatycznych i ciągły rozwój, by być na bieżąco z nowoczesnym full-stackiem i narzędziami wspieranymi przez AI. Chętnie wykorzystam tę mieszankę nowoczesnych kompetencji webowych i integracji AI w nowych wyzwaniach.
     </p>`
   },
-  //   "text": `<p class="styledP">
-  //     I am a Junior Full-Stack Developer based in Reading, UK, specializing in building modern, scalable web applications with <span class="bold">React</span>, <span class="bold">Redux Toolkit</span>, <span class="bold">Next.js</span>, and <span class="bold">styled-components</span>. I have strong experience with <span class="bold">JavaScript (ES6+)</span>. Learning at the moment <span class="bold">TypeScript</span>.
-  //   </p>
-  //   <p class="styledP">
-  //     My expertise includes developing single-page applications (SPAs), integrating REST APIs, robust state management (Redux), and routing (React Router). I work with modern libraries and tools.
-  //   </p>
-  //   <p class="styledP">
-  //     For styling, I use <span class="bold">styled-components</span>, <span class="bold">SCSS/SASS</span>, and <span class="bold">Bootstrap</span>, ensuring responsive design and smooth animations.
-  //   </p>
-  //   <p class="styledP">
-  //     On the backend, I have experience with <span class="bold">Node.js</span>, <span class="bold">Express.js</span>, <span class="bold">MongoDB</span>, and deploying solutions to <span class="bold">Google Cloud Platform</span>. I am familiar with authentication, validation, and secure coding practices.
-  //   </p>
-  //   <p class="styledP">
-  //     My workflow includes <span class="bold">Git</span> and <span class="bold">GitHub</span> for version control, build tools (<span class="bold">Webpack</span>, <span class="bold">npm</span>), automated testing (<span class="bold">React Testing Library</span>, <span class="bold">Jest</span>), and deploying projects to <span class="bold">gh-pages</span>.
-  //   </p>
-  //   <p class="styledP">
-  //     I organize projects using a feature-folder structure, focus on clean code, documentation, and technical communication. I am committed to continuous learning, currently deepening my skills in <span class="bold">TypeScript</span> and automated testing.
-  //   </p>
-  //   <p class="styledP">
-  //    During my employment at <span class="bold">Filament AI</span>, I developed and customized chat widgets <br> for multiple clients (e.g.,<span class="bold"> Rentokil, Versus Arthritis, Tesco</span>), ensuring alignment with website themes and functional requirements. I extended Google Cloud Functions to support ticket creation with additional service options. I configured and optimized EBM chatbot dialog flows, adding new features to meet client needs.
-  //   Additionally, I enhanced Filament UI (a custom CSS library) by implementing new features and resolving bugs.
-  //   <br>Tools & Technologies:<span class="bold"> React, Node.js, Google Cloud Functions, EBM, Filament UI, REST APIs </span></p>`
-  // }
   "text": `<p class="styledP">
     I am a Full-Stack Developer based in Reading, UK, specializing in building modern, scalable web applications with <span class="bold">React</span>, <span class="bold">Next.js (App Router)</span>, <span class="bold">TypeScript</span>, and <span class="bold">Node.js</span>. I always prioritize clean architecture, strong performance, excellent user experience, secure API integrations, and maintainable code.
   </p>
