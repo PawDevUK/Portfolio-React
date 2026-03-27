@@ -3,7 +3,7 @@ export const intro = {
   "PolLang": {
     "header": "Trochę o mnie",
     "text": `<p class="styledP">
-      Jestem Junior Full-Stack Developerem z Reading (UK), specjalizującym się w budowie nowoczesnych, responsywnych aplikacji webowych. Specjalizuję się w <span class="bold">React</span>, <span class="bold">Next.js (App Router)</span>, <span class="bold">TypeScript</span> i <span class="bold">Node.js</span>, zawsze stawiając na czystą architekturę, wysoką wydajność, doskonałe doświadczenie użytkownika, bezpieczne integracje API i łatwość utrzymania kodu.
+      Jestem Full-Stack Developerem z Reading (UK), specjalizującym się w budowie nowoczesnych, responsywnych aplikacji webowych. Specjalizuję się w <span class="bold">React</span>, <span class="bold">Next.js (App Router)</span>, <span class="bold">TypeScript</span> i <span class="bold">Node.js</span>, zawsze stawiając na czystą architekturę, wysoką wydajność, doskonałe doświadczenie użytkownika, bezpieczne integracje API i łatwość utrzymania kodu.
     </p>
     <p class="styledP">
       Moja praca obejmuje aplikacje full-stack — od responsywnych interfejsów front-endowych i zarządzania stanem z użyciem <span class="bold">Redux Toolkit</span> oraz <span class="bold">Zustand</span> po skalowalne systemy back-endowe, <span class="bold">RESTful API</span> oraz wdrożenia na platformach <span class="bold">Vercel</span> i <span class="bold">Google Cloud Platform</span>.
@@ -48,7 +48,7 @@ export const intro = {
   //   <br>Tools & Technologies:<span class="bold"> React, Node.js, Google Cloud Functions, EBM, Filament UI, REST APIs </span></p>`
   // }
   "text": `<p class="styledP">
-    I am a Junior Full-Stack Developer based in Reading, UK, specializing in building modern, scalable web applications with <span class="bold">React</span>, <span class="bold">Next.js (App Router)</span>, <span class="bold">TypeScript</span>, and <span class="bold">Node.js</span>. I always prioritize clean architecture, strong performance, excellent user experience, secure API integrations, and maintainable code.
+    I am a Full-Stack Developer based in Reading, UK, specializing in building modern, scalable web applications with <span class="bold">React</span>, <span class="bold">Next.js (App Router)</span>, <span class="bold">TypeScript</span>, and <span class="bold">Node.js</span>. I always prioritize clean architecture, strong performance, excellent user experience, secure API integrations, and maintainable code.
   </p>
   <p class="styledP">
     My work spans full-stack web applications, from responsive front-end interfaces and state management with <strong>Redux Toolkit</strong> and <strong>Zustand</strong> to scalable back-end systems, <strong>RESTful APIs</strong>, and deployments on <strong>Vercel</strong> and <strong>Google Cloud Platform</strong>. 
