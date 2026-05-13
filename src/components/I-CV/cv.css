@@ -252,3 +252,10 @@ ul {
 .non-margin-top {
     margin-top: 0px;
 }
+
+@media print {
+    .print-page-break-before {
+        break-before: page;
+        page-break-before: always;
+    }
+}

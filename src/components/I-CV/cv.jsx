@@ -188,7 +188,7 @@ function Cv() {
                 </p>
               </ExperienceWrapper>
               <ExperienceWrapper>
-                <div className='cv-h5'>
+                <div className='cv-h5 print-page-break-before'>
                   <span>Portfolio</span>
                 </div>
                 <p className='textPrimary'>
@@ -207,7 +207,7 @@ function Cv() {
             </Article>
           </section>
 
-          <section className='grid sectionPadding'>
+          <section className='grid sectionPadding '>
             <div className='section-header'>
               <p>Education</p>
             </div>
