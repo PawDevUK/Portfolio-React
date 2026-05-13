@@ -15,7 +15,7 @@
 }
 
 #cv {
-    padding: 30px 0px 0px 0px;
+    padding: 30px;
 }
 
 #cv h2 {
@@ -25,8 +25,6 @@
     text-transform: capitalize;
     padding: 10px 0px 0px 0px;
 }
-
-
 
 .cv-h5,
 .cv-h5-nonMargin-top,
@@ -203,8 +201,6 @@ a:hover {
     grid-template-columns: 1fr;
 
 }
-
-
 
 /* header */
 #socials {
