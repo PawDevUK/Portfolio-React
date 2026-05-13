@@ -25,38 +25,22 @@ function Cv() {
     <>
       <Wrapper>
         <div id='cv' className='page'>
-          <header className='grid-plus sectionPadding'>
+          <header className='sectionPadding'>
             <div id='header-info'>
-              <h1 id='name'>Pawel Siwek</h1>
-              <h4>Full-Stack Developer</h4>
-            </div>
-          </header>
-
-          <section className='grid sectionPadding'>
-            <div className='section-header'>
-              <p>Contact</p>
-            </div>
-            <Article className='grid-plus' id='cont-art'>
-              <div id='left'>
-                <div className='head'>Email:</div>
-                <div className='head'>Portfolio:</div>
-                <div className='head'>GitHub:</div>
-                <div className='head'>Telephone:</div>
-                <div className='head'>Location:</div>
-                <div className='head'>Languages:</div>
+              <div>
+                <h1 id='name'>Pawel Siwek</h1>
+                <h4>JavaScript Full-Stack Developer</h4>
               </div>
-              <div id='right'>
-                <div className='info'>P.F.Siwek@gmail.com</div>
-                <div className='info'>
-                  <a href='https://pawelsiwek.co.uk'>PawelSiwek.co.uk</a>
-                </div>
-                <div className='info'>PawDevUK</div>
+            </div>
+            <section className='grid sectionPadding'>
+              <div id='cont-art'>
+                <div className='info'>p.f.siwek@gmail.com</div>
+                <div className='info'>pawelsiwek.co.uk</div>
                 <div className='info'>+44 7463 765514</div>
                 <div className='info'>Reading, UK</div>
-                <div className='info'>English (Fluent), Polish (Native)</div>
               </div>
-            </Article>
-          </section>
+            </section>
+          </header>
 
           <section className='grid sectionPadding'>
             <div className='section-header'>

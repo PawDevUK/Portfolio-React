@@ -26,13 +26,7 @@
     padding: 10px 0px 0px 0px;
 }
 
-h4 {
-    padding-top: 10px;
-    margin: 0px;
-    font-size: 20px;
-    color: #007297;
-    text-transform: capitalize;
-}
+
 
 .cv-h5,
 .cv-h5-nonMargin-top,
@@ -57,15 +51,52 @@ h4 {
 
 .info {
     font-size: 18px;
+    margin-right: 10px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
+    .grid {
+        /* margin-top: 20px; */
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+    }
+
     .page {
         margin-top: 30px;
         margin-bottom: 30px;
         padding-top: 25px;
     }
 }
+
+@media (min-width: 600px) {
+    #art-about {
+        padding-right: 30px;
+    }
+}
+
+@media(max-width: 600px) {
+    #name {
+        width: 250px;
+    }
+
+    .Skills {
+        column-count: 2;
+        column-gap: 12px;
+    }
+
+    .sectionPadding {
+        padding: 0px 5px 10px 5px;
+    }
+
+    #cont-art {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px 0px 0px 0px;
+
+    }
+
+}
+
 
 #header {
     font-size: 35px;
@@ -77,26 +108,37 @@ h4 {
 
 #header-info {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     gap: 14px;
     text-transform: none;
 }
 
-.section-header p {
+#name {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
 
+h4 {
+    /* padding-top: 10px; */
+    margin: 0px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#cont-art {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 5px 0px 0px 0px; */
+
+}
+
+.section-header p {
     font-size: 16px;
     color: #0e76a8;
 }
 
-#name {
-    font-size: 35px;
-}
-
-@media(max-width: 600px) {
-    #name {
-        width: 250px;
-    }
-}
 
 .Tools {
     font-weight: bold;
@@ -110,11 +152,7 @@ h4 {
     justify-content: space-between;
 }
 
-@media (min-width: 600px) {
-    #art-about {
-        padding-right: 30px;
-    }
-}
+
 
 #firstSkillsSet {
     margin: 0px;
@@ -133,13 +171,6 @@ h4 {
 .Skills li {
     break-inside: avoid;
     /* margin-bottom: 8px; */
-}
-
-@media (max-width: 600px) {
-    .Skills {
-        column-count: 2;
-        column-gap: 12px;
-    }
 }
 
 .Skills ul li {
@@ -165,10 +196,6 @@ a:hover {
 
 }
 
-#cont-art {
-    padding: 10px 0px 10px 0px;
-}
-
 .grid {
     /* margin-top: 20px; */
     display: grid;
@@ -176,13 +203,7 @@ a:hover {
 
 }
 
-@media (min-width: 800px) {
-    .grid {
-        /* margin-top: 20px; */
-        display: grid;
-        grid-template-columns: 1fr 7fr;
-    }
-}
+
 
 /* header */
 #socials {
