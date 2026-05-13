@@ -48,23 +48,20 @@ function Cv() {
             </div>
             <Article id='art-about' className='textPrimary'>
               <p className='textPrimary'>
-                I'm a Full-Stack Developer based in Reading, UK, focused on
-                building modern, responsive web applications. I specialize in{' '}
-                React, Next.js (App Router), TypeScript, <br />
-                and Node.js, always prioritizing clean architecture and user
-                experience.
+                I’m a Full-Stack Developer based in Reading, UK, building
+                modern, data-driven web applications with React, Next.js (App
+                Router), TypeScript, and Node.js. I deliver end-to-end features,
+                from responsive front-end interfaces and state architecture with
+                Zustand to backend APIs and database design.
               </p>
               <p className='textPrimary'>
-                My work spans full-stack web applications, from responsive
-                front-end interfaces and state management with Redux Toolkit and
-                Zustand to scalable back-end systems, RESTful APIs, and
-                deployments on Vercel and Google Cloud Platform.
-              </p>
-              <p className='textPrimary'>
-                In production environments, I actively use TypeScript and
-                increasingly incorporate AI capabilities—particularly OpenAI API
-                models—to enable intelligent automation, data processing, and
-                smarter application features.
+                My recent work combines product engineering with automation and
+                AI. I build scraping and enrichment pipelines with Puppeteer,
+                process and normalize large data sets, and use OpenAI-based
+                parsing to turn unstructured data into useful application
+                features. I focus on clean architecture, reliability, and user
+                experience, aiming to ship software that is both maintainable
+                and valuable for end users.
               </p>
             </Article>
           </section>
@@ -77,7 +74,7 @@ function Cv() {
               <ul>
                 <li>
                   <strong>Frontend:</strong> React, Next.js, TypeScript,
-                  Tailwind, Styled-Components, Redux Toolkit
+                  Tailwind, Styled-Components, Redux Toolkit, Zustand
                 </li>
                 <li>
                   <strong>Backend:</strong> Node.js, Express.js, MongoDB,
@@ -132,13 +129,16 @@ function Cv() {
                   <span>Profit Radar </span>
                 </div>
                 <p className='textPrimary'>
-                  Next.js tool for Copart auction monitoring with server-side
-                  scraping, proxy support, MongoDB persistence, and AI title
-                  parsing. Helps identify potential resale opportunities.
+                  Full-stack Next.js platform for Copart auction intelligence.
+                  It automates auction calendar and sale-list scraping, stores
+                  and updates lot data in MongoDB, enriches vehicle metadata
+                  with AI-powered parsing, and supports resale opportunity
+                  analysis with Otomoto market checks.
                 </p>
                 <p className='textPrimary'>
                   <strong>Tools & Technologies:</strong> Next.js (App Router),
-                  TypeScript, Puppeteer, MongoDB, OpenAI API, Vercel
+                  TypeScript, React, Puppeteer, MongoDB (Mongoose), OpenAI API,
+                  Zustand, SWR, Tailwind CSS
                 </p>
               </ExperienceWrapper>
               <ExperienceWrapper>
