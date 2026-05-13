@@ -6,16 +6,14 @@
     color: var(--primary-text-color);
 }
 
-.page {
+#cv {
+    padding: 30px;
     color: var(--primary-text-color);
     max-width: 900px;
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 1px 0px 25px rgba(50, 50, 50, 0.75);
-}
-
-#cv {
-    padding: 30px;
+    letter-spacing: 0.03em;
 }
 
 #cv h2 {
@@ -31,7 +29,7 @@
 .cv-h5-for-Download {
     font-weight: bold;
     text-transform: capitalize;
-    font-size: 17px;
+    font-size: 16px;
     margin: 20px 0px 5px 0px;
 }
 
@@ -73,6 +71,10 @@
 }
 
 @media(max-width: 600px) {
+    #cv {
+        padding: 15px;
+    }
+
     #name {
         width: 250px;
     }
@@ -93,8 +95,13 @@
 
     }
 
-}
+    time {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 
+}
 
 #header {
     font-size: 35px;
@@ -202,6 +209,11 @@ a:hover {
 
 }
 
+time {
+    font-weight: normal;
+    float: right;
+}
+
 /* header */
 #socials {
     margin: 5px;
@@ -249,9 +261,45 @@ ul {
     margin-top: 0px;
 }
 
+@page {
+    size: A4;
+    margin: 8mm;
+}
+
 @media print {
     .print-page-break-before {
         break-before: page;
         page-break-before: always;
+        margin-top: 0;
+    }
+
+    .page {
+        box-shadow: none !important;
+        background: #fff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+
+    }
+
+    .page,
+    #cv {
+        max-width: none !important;
+        width: 100% !important;
+        padding: 0 !important;
+        font-family: Arial, Helvetica, sans-serif;
+        text-rendering: geometricPrecision;
+    }
+
+    #cv {
+        zoom: 1.12;
+        width: calc(100% / 1.12) !important;
+    }
+
+    .sectionPadding {
+        padding: 0 12px 8px 12px;
+    }
+
+    article {
+        padding-top: 6px;
     }
 }

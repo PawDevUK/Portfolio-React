@@ -6,7 +6,6 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   font-family: NunitoSans-Regular;
 `;
-
 const ExperienceWrapper = styled.div`
   padding-right: 30px;
   @media (max-width: 600px) {
@@ -24,7 +23,7 @@ function Cv() {
   return (
     <>
       <Wrapper>
-        <div id='cv' className='page'>
+        <div id='cv'>
           <header className='sectionPadding'>
             <div id='header-info'>
               <div>
@@ -51,9 +50,10 @@ function Cv() {
                 I’m a Full-Stack Developer based in Reading, UK, building
                 modern, data-driven web applications with React, Next.js (App
                 Router), TypeScript, and Node.js. I deliver end-to-end features,
-                from responsive front-end interfaces and state architecture with
-                Zustand to backend APIs and database design.
+                from responsive front-end interfaces and Zustand-based state
+                management to backend APIs and database design.
               </p>
+              <br />
               <p className='textPrimary'>
                 My recent work combines product engineering with automation and
                 AI. I build scraping and enrichment pipelines with Puppeteer,
@@ -107,12 +107,12 @@ function Cv() {
                 <p className='textPrimary'>
                   Developed and customized chat widgets for multiple clients,
                   aligning with website themes and functional requirements
-                  (e.g., Rentokill, Versus Arthritis). Extended Google Cloud
+                  (e.g., Rentokil, Versus Arthritis). Extended Google Cloud
                   Functions to support ticket creation with additional service
                   options. Configured and optimized EBM chatbot dialog flows,
                   adding new features to meet client needs. Enhanced Filament UI
                   (custom CSS library) by implementing new features and
-                  resolving bugs.
+                  resolving bugs. <br></br>
                   <strong>Tools & Technologies:</strong> React, Node.js, Google
                   Cloud Functions, EBM, Filament UI, REST APIs
                 </p>
@@ -161,7 +161,10 @@ function Cv() {
                 <div className='cv-h5'>
                   <span>
                     FilesConverto.com
-                    <span className='cv-low-case'> (file conversion tool)</span>
+                    <span className='cv-low-case'>
+                      {' '}
+                      (files conversion tool)
+                    </span>
                   </span>
                 </div>
                 <p className='textPrimary'>
@@ -173,7 +176,7 @@ function Cv() {
                 </p>
               </ExperienceWrapper>
               <ExperienceWrapper>
-                <div className='cv-h5'>
+                <div className='cv-h5 print-page-break-before'>
                   <span>Work Tracker</span>
                 </div>
                 <p className='textPrimary'>
@@ -188,7 +191,7 @@ function Cv() {
                 </p>
               </ExperienceWrapper>
               <ExperienceWrapper>
-                <div className='cv-h5 print-page-break-before'>
+                <div className='cv-h5'>
                   <span>Portfolio</span>
                 </div>
                 <p className='textPrimary'>
@@ -206,7 +209,6 @@ function Cv() {
               </ExperienceWrapper>
             </Article>
           </section>
-
           <section className='grid sectionPadding '>
             <div className='section-header'>
               <p>Education</p>
