@@ -3,7 +3,9 @@ import './cv.css';
 import React from 'react';
 import styled from 'styled-components';
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  font-family: NunitoSans-Regular;
+`;
 
 const ExperienceWrapper = styled.div`
   padding-right: 30px;
@@ -26,14 +28,14 @@ function Cv() {
           <header className='grid-plus sectionPadding'>
             <div id='header-info'>
               <h1 id='name'>Pawel Siwek</h1>
-              <h2>Full-Stack Developer</h2>
+              <h4>Full-Stack Developer</h4>
             </div>
           </header>
 
           <section className='grid sectionPadding'>
-            <header>
-              <h4>Contact Details</h4>
-            </header>
+            <div className='section-header'>
+              <p>Contact</p>
+            </div>
             <Article className='grid-plus' id='cont-art'>
               <div id='left'>
                 <div className='head'>Email:</div>
@@ -57,62 +59,36 @@ function Cv() {
           </section>
 
           <section className='grid sectionPadding'>
-            <header>
-              <h4>About Me</h4>
-            </header>
+            <div className='section-header'>
+              <p>About Me</p>
+            </div>
             <Article id='art-about' className='textPrimary'>
               <p className='textPrimary'>
                 I'm a Full-Stack Developer based in Reading, UK, focused on
                 building modern, responsive web applications. I specialize in{' '}
-                <strong>React</strong>, <strong>Next.js (App Router)</strong>,{' '}
-                <strong>TypeScript</strong>, <br />
-                and <strong>Node.js</strong>, always prioritizing clean
-                architecture and user experience.
+                React, Next.js (App Router), TypeScript, <br />
+                and Node.js, always prioritizing clean architecture and user
+                experience.
               </p>
               <p className='textPrimary'>
                 My work spans full-stack web applications, from responsive
-                front-end interfaces and state management with{' '}
-                <strong>Redux Toolkit</strong> and <strong>Zustand</strong> to
-                scalable back-end systems, <strong>RESTful APIs</strong>, and
-                deployments on <strong>Vercel</strong> and{' '}
-                <strong>Google Cloud Platform</strong>.
+                front-end interfaces and state management with Redux Toolkit and
+                Zustand to scalable back-end systems, RESTful APIs, and
+                deployments on Vercel and Google Cloud Platform.
               </p>
               <p className='textPrimary'>
-                In production environments, I actively use{' '}
-                <strong>TypeScript</strong> and increasingly incorporate AI
-                capabilities—particularly <strong>OpenAI API models</strong>—to
-                enable intelligent automation, data processing, and smarter
-                application features.
-              </p>
-              <br />
-              <p className='textPrimary'>
-                Recent projects include{' '}
-                <strong>TLG (timeline generator)</strong> a Next.js app that
-                tracks GitHub activity and generates AI-powered summaries and{' '}
-                <strong>Profit Radar</strong>, a tool for monitoring Copart
-                auctions with AI-driven insights. Both highlight my skills in
-                API integration, MongoDB, and practical automation.
-                <br />
-              </p>
-              <br />
-              <p className='textPrimary'>
-                Professionally, I gained hands-on experience at{' '}
-                <strong>Filament AI</strong> in 2021, customizing chat widgets
-                and extending <strong>Google Cloud Functions</strong> for client
-                projects.
-              </p>
-              <p className='textPrimary'>
-                I'm committed to clean code, best practices, automated testing,
-                and continuous learning in full-stack and AI-augmented
-                development.
+                In production environments, I actively use TypeScript and
+                increasingly incorporate AI capabilities—particularly OpenAI API
+                models—to enable intelligent automation, data processing, and
+                smarter application features.
               </p>
             </Article>
           </section>
 
           <section className='grid sectionPadding'>
-            <header>
-              <h4>Skills</h4>
-            </header>
+            <div className='section-header'>
+              <p>Skills</p>
+            </div>
             <Article id='art-know' className='skills-columns'>
               <ul>
                 <li>
@@ -137,11 +113,35 @@ function Cv() {
               </ul>
             </Article>
           </section>
-
           <section className='grid sectionPadding'>
-            <header>
-              <h4>Experience</h4>
-            </header>
+            <div className='section-header'>
+              <p>Experience</p>
+            </div>
+            <Article id='art-work'>
+              <ExperienceWrapper>
+                <div className='cv-h5-nonMargin-top'>
+                  <span>Full-Stack Developer – Filament AI</span>
+                  <time>April 2021 – December 2021</time>
+                </div>
+                <p className='textPrimary'>
+                  Developed and customized chat widgets for multiple clients,
+                  aligning with website themes and functional requirements
+                  (e.g., Rentokill, Versus Arthritis). Extended Google Cloud
+                  Functions to support ticket creation with additional service
+                  options. Configured and optimized EBM chatbot dialog flows,
+                  adding new features to meet client needs. Enhanced Filament UI
+                  (custom CSS library) by implementing new features and
+                  resolving bugs.
+                  <strong>Tools & Technologies:</strong> React, Node.js, Google
+                  Cloud Functions, EBM, Filament UI, REST APIs
+                </p>
+              </ExperienceWrapper>
+            </Article>
+          </section>
+          <section className='grid sectionPadding'>
+            <div className='section-header'>
+              <p>Projects</p>
+            </div>
             <Article id='art-work'>
               <ExperienceWrapper>
                 <div className='cv-h5-nonMargin-top'>
@@ -222,36 +222,11 @@ function Cv() {
               </ExperienceWrapper>
             </Article>
           </section>
-          <section className='grid sectionPadding'>
-            <header>
-              <h4>Professional Experience</h4>
-            </header>
-            <Article id='art-work'>
-              <ExperienceWrapper>
-                <div className='cv-h5-nonMargin-top'>
-                  <span>Full-Stack Developer – Filament AI</span>
-                  <time>April 2021 – December 2021</time>
-                </div>
-                <p className='textPrimary'>
-                  Developed and customized chat widgets for multiple clients,
-                  aligning with website themes and functional requirements
-                  (e.g., Rentokill, Versus Arthritis). Extended Google Cloud
-                  Functions to support ticket creation with additional service
-                  options. Configured and optimized EBM chatbot dialog flows,
-                  adding new features to meet client needs. Enhanced Filament UI
-                  (custom CSS library) by implementing new features and
-                  resolving bugs.
-                  <strong>Tools & Technologies:</strong> React, Node.js, Google
-                  Cloud Functions, EBM, Filament UI, REST APIs
-                </p>
-              </ExperienceWrapper>
-            </Article>
-          </section>
 
           <section className='grid sectionPadding'>
-            <header>
-              <h4>Education</h4>
-            </header>
+            <div className='section-header'>
+              <p>Education</p>
+            </div>
             <Article>
               <div className='cv-h5-nonMargin-top'>
                 <span>Relevant Coursework</span>
